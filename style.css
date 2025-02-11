@@ -1,51 +1,64 @@
-body{
-    background-color: rgba(94, 72, 46, 0.84);
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
+.main {
+     display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+/* .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
-    background-image:url(images/bg.jpg);
-    background-size: cover;
+    height: 100%;
+    background-color: #18db49cc;
+    z-index: 1;
+} */
+
+.f1{
+   font-family: Kumar system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: medium;
+   color: aliceblue;
+} 
+
+.f2 {
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2962FF;
+  }
+
+
+.diva, .divb {
+    flex: 1; /* Each div takes equal space */
+}
+
+.diva{
+    background-color: #403D4F;
+}
+
+.divb{
+    
+    background-image: url(images/bg1.jpg);
     background-position: center;
+    background-size: cover;
     
 }
 
-.main{
-    height: 100%;
-    font-weight: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.596);
-}
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #A7C6F7;
 }
 
 .nav-links{
     margin-right: 50px;
     padding-left: 100px;
+    color: #535FE5;
 }
 
 .searchbar{
     width: 200px;
 }
-
-/* nav{
-    background-color: rgba(90, 123, 140, 0.116);
-    text-align: center;
-    height: 40px;
-    flex-direction: column;
-}  */
-    
-
-div{
-    text-align: center;
-}
-
 
 
